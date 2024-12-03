@@ -1,0 +1,66 @@
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.text,
+.foto {
+    flex-grow: 1;
+    width: 250px;
+    padding: 50px;
+}
+
+.flex,
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.game {
+    width: 200px;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 900;
+}
+
+.minecraft {
+    background: linear-gradient(to bottom, #fffe00, #f5b918, #d27d2f, #9c4e34, #5b2b2b, #511d28, #450e25, #380224, #570048, #6b0079, #6800b7, #002dff);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.roblox {
+    background-image: linear-gradient(to bottom, #000000, #331019, #620f24, #920728, #c20023, #d6002f, #ea003c, #ff004a, #fd0070, #e6009f, #b200d1, #002dff);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.nfs {
+
+    background-image: linear-gradient(to bottom, #000000, #452224, #864131, #be6d2f, #e6a51c, #e6a51c, #e6a51c, #e6a51c, #be6d2f, #864131, #452224, #000000);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
